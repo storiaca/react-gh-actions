@@ -21,7 +21,7 @@ export default defineConfig({
     coverage: {
       statements: 59.79,
       thresholdAutoUpdate: true,
-      reporter: ["clover"],
+      //reporter: ["clover"],
       include: ["src/**/*"],
       exclude: [
         "test/**",
